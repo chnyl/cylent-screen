@@ -7,7 +7,7 @@ let images = [
   'background/cat.jpg',
   'background/dino-astronaut.jpg',
   'background/elephant.png',
-  'background/window11-glowing.jpg'
+  'background/win11-glowing.png'
 ];
 let current = 0;
 let playing = false;
