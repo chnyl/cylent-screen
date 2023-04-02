@@ -199,3 +199,26 @@ function updateTime() {
     blink = !blink;
 }
 setInterval(updateTime, 1000);
+
+// // OpenAI API
+// function genImg() {
+//     var promptText = document.querySelector('input').value;
+//     var data = {
+//         "model": "image-alpha-001",
+//         "prompt": promptText,
+//         "num_images": 1
+//     }
+//     fetch('https://api.openai.com/v1/images/generations', {
+//         method: 'POST',
+//         headers: {
+//             'Content-Type': 'application/json',
+//             'Authorization': 'Bearer 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' // API KEY 키 입력
+//         },
+//         body: JSON.stringify(data)
+//     })
+//         .then(response => response.json())
+//         .then(data => {
+//             console.log(data);
+//             document.querySelector('img').src = data.data[0].url;
+//         })
+// }
